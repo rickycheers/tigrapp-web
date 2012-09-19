@@ -1,0 +1,1 @@
+exports.launch=function(){(new (require("/ui/AppWindow"))).open()};
