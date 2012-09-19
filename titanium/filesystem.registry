@@ -1,4 +1,4 @@
-ts	1348019620000
+ts	1348023662000
 Default.png	342001
 app.js	46
 app.js.uncompressed.js	82
@@ -307,8 +307,8 @@ ui
 	AppWindow.js.uncompressed.js	4726
 	CheckinWindow.js	393
 	CheckinWindow.js.uncompressed.js	568
-	ContentView.js	1264
-	ContentView.js.uncompressed.js	2286
+	ContentView.js	1363
+	ContentView.js.uncompressed.js	2452
 	FacebookView.js	3754
 	FacebookView.js.uncompressed.js	3754
 	InfoWindow.js	437
