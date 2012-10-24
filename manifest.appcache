@@ -1,0 +1,57 @@
+# Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App's settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App's domains. (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Wed Oct 24 2012 17:29:41 GMT-0500 (CDT)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: 
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://connect.facebook.net/en_US/all.js
+http://historias.kiwam.co/admin/uploads/presentacion banner.jpg
+images/028fcdff.icon_dato.png
+images/1162569c.icon_trivia_active.png
+images/24d2e547.menu-background.jpg
+images/5322cee3.icon_partido.png
+images/5b6a6dc9.icon_partido_active.png
+images/8cc9f62b.icon_dato_active.png
+images/e3bd3404.header-background.jpg
+images/f943d990.icon_trivia.png
+styles/images/ajax-loader.gif
+styles/images/icons-18-black.png
+styles/images/icons-18-white.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png
+http://www.google-analytics.com/ga.js
+images/3c2d0fdb.facebook-publish.png
+images/9be0ded9.facebook-button.png
+images/cf8db533.back.jpg
+images/f214ee76.logo.png
+scripts/07d56495.scripts.js
+styles/110d34ed.main.css
+styles/24b3f3e1.jquery.mobile-1.2.0.min.css
+
+NETWORK:
+*
