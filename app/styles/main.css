@@ -1,0 +1,96 @@
+#background{
+	max-width: 640px;
+	max-height: 1280px;
+}
+
+@media only screen and (min-device-width: 768px){
+	#background{
+		width: 100%;
+		max-width: none;
+	}
+}
+
+.custom_tabs .ui-btn .ui-btn-inner {
+	padding-top: 40px !important; 
+}
+.custom_tabs .ui-btn .ui-icon {
+	width: 30px!important;
+	height: 30px!important;
+	margin-left: -15px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+.partido_tab .ui-icon{
+	background:  url(../images/icon_partido.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+.dato_tab .ui-icon{
+	background:  url(../images/icon_dato.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+.trivia_tab .ui-icon{
+	background:  url(../images/icon_trivia.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+
+.partido_tab_active .ui-icon{
+	background:  url(../images/icon_partido_active.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+.dato_tab_active .ui-icon{
+	background:  url(../images/icon_dato_active.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+.trivia_tab_active .ui-icon{
+	background:  url(../images/icon_trivia_active.png) 50% 50% no-repeat; background-size: 30px 30px;
+}
+
+
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.page{
+	background: transparent;
+}
+
+.ui-header{
+	background: url(../images/header-background.jpg);
+}
+
+.ui-navbar ul li a{
+	background: url(../images/menu-background.jpg);
+}
+
+.ui-btn-up-a {
+	border: 1px solid #005094;
+}
+
+.facebookButton{
+	width: 250px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.banner-image{
+	margin: 0 0 10px 0;
+	height: 100px;
+}
+
+.content-box{
+	border: 1px solid #fff;
+	color: #fff;
+	text-shadow: 0 1px 0 black;
+	background: rgba(0,0,0,0.3);
+	padding: 0 10px;
+}
+
+#facebookComment{
+	height: 150px;
+}
+
+#facebookComments h3{
+	color: #fff;
+	text-shadow: 0 1px 0 black;
+}

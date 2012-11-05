@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Tigre Trivia</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-startup-image" href="Default-Landscape.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+        <link rel="apple-touch-startup-image" href="Default-Portrait.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="Default.jpg" media="screen and (max-device-width: 320px)">
+        
+        <link rel="stylesheet" href="styles/24b3f3e1.jquery.mobile-1.2.0.min.css">
+        <link rel="stylesheet" href="styles/110d34ed.main.css"/>
+
+    </head>
+    <body>
+
+        <div id="fb-root"></div>
+        <script>
+        fb_status_str = '';
+        fb_status = {};
+          // Additional JS functions here
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '468900563142822', // App ID
+              channelUrl : '//tigretrivia.kiwam.co/channel.html', // Channel File
+              status     : true, // check login status
+              cookie     : true, // enable cookies to allow the server to access the session
+              xfbml      : true,  // parse XFBML
+              permissions: ['publish_stream', 'publish_actions']
+            });
+
+            FB.getLoginStatus(function(response) {
+              fb_status = response;
+              if (response.status === 'connected') {
+                fb_status_str = 'connected';
+              } else if (response.status === 'not_authorized') {
+                fb_status_str = "not_authorized"
+              } else {
+                fb_status_str = "not_logged_in"
+              }
+             });
+
+          };
+
+          // Load the SDK Asynchronously
+          (function(d){
+             var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement('script'); js.id = id; js.async = true;
+             js.src = "//connect.facebook.net/en_US/all.js";
+             ref.parentNode.insertBefore(js, ref);
+           }(document));
+        </script>
+
+        <img src="images/cf8db533.back.jpg" id="background" width="100%" />
+        <div data-role="page" id="partido" class="page">
+            <div data-role="header"><img id="logo" src="images/f214ee76.logo.png" alt=""></div>
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul class="custom_tabs">
+                        <li><a href="#partido" data-transition="none" data-icon="custom" class="partido_tab_active">El Partido</a></li>
+                        <li><a href="#dato" data-transition="none" data-icon="custom" class="dato_tab">EL Dato</a></li>
+                        <li><a href="#trivia" data-transition="none" data-icon="custom" class="trivia_tab">La Trivia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <a id="partidoBannerLink" href="#">
+                    <img id="partidoBanner" src="" alt="Publicidad" class="banner-image" width="100%">
+                </a>
+                <div id="contentWrapper" class="content-box">
+                    <h2 id="partidoDate"></h2>
+                    <p id="partidoContent"></p>
+                </div>
+            </div>
+            <img src="images/9be0ded9.facebook-button.png" alt="Comentar con Facebook" class="facebookButton">
+        </div>
+
+        <div data-role="page" id="dato" class="page">
+            <div data-role="header"><img id="logo" src="images/f214ee76.logo.png" alt=""></div>
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul class="custom_tabs">
+                        <li><a href="#partido" data-transition="none" data-icon="custom" class="partido_tab">El Partido</a></li>
+                        <li><a href="#dato" data-transition="none" data-icon="custom" class="dato_tab_active">EL Dato</a></li>
+                        <li><a href="#trivia" data-transition="none" data-icon="custom" class="trivia_tab">La Trivia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <a id="datoBannerLink" href="#">
+                    <img id="datoBanner" src="" alt="Publicidad" class="banner-image" width="100%">
+                </a>
+                <div id="contentWrapper" class="content-box">
+                    <h2 id="datoDate"></h2>
+                    <p id="datoContent"></p>
+                </div>
+            </div>
+            <a href="#" data-transition="slide"><img src="images/9be0ded9.facebook-button.png" alt="Comentar con Facebook" class="facebookButton"></a>
+        </div>
+
+        <div data-role="page" id="trivia" class="page">
+            <div data-role="header"><img id="logo" src="images/f214ee76.logo.png" alt=""></div>
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul class="custom_tabs">
+                        <li><a href="#partido" data-transition="none" data-icon="custom" class="partido_tab">El Partido</a></li>
+                        <li><a href="#dato" data-transition="none" data-icon="custom" class="dato_tab">EL Dato</a></li>
+                        <li><a href="#trivia" data-transition="none" data-icon="custom" class="trivia_tab_active">La Trivia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <a id="triviaBannerLink" href="#">
+                    <img id="triviaBanner" src="" alt="Publicidad" class="banner-image" width="100%">
+                </a>
+                <div id="contentWrapper" class="content-box">
+                    <h2 id="triviaDate"></h2>
+                    <p id="triviaContent"></p>
+                </div>
+            </div>
+            <a href="#" data-transition="slide"><img src="images/9be0ded9.facebook-button.png" alt="Comentar con Facebook" class="facebookButton"></a>
+        </div>
+
+        <div id="facebookComments" data-role="page" class="page">
+            <div data-role="header">
+                <h2>Comentar con Facebook</h2>
+                <a href="index.html" data-rel="back" data-icon="delete" data-iconpos="right" class="ui-btn-right">Cancelar</a>
+            </div>
+            <div data-role="content">
+                <h3>Escribe aquí tu comentario.</h3>
+                <textarea name="comment" id="facebookComment" cols="30" rows="30"></textarea>
+                <img id="publishCommentButton" src="images/3c2d0fdb.facebook-publish.png" alt="Publicar Comentario" class="facebookButton" />
+            </div>
+        </div>
+
+        <div id="popup" data-role="popup"></div>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <script src="scripts/07d56495.scripts.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-35810108-1']);
+          _gaq.push(['_setDomainName', 'kiwam.co']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>

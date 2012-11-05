@@ -4,7 +4,7 @@ CACHE MANIFEST
 # Time: Wed Oct 24 2012 17:29:41 GMT-0500 (CDT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
-# Retrieved URL: 
+# Retrieved URL: http://localhost:3501/
 # User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
 #
 # Config:
@@ -24,17 +24,17 @@ CACHE MANIFEST
 CACHE:
 http://connect.facebook.net/en_US/all.js
 http://historias.kiwam.co/admin/uploads/presentacion banner.jpg
-images/028fcdff.icon_dato.png
-images/1162569c.icon_trivia_active.png
-images/24d2e547.menu-background.jpg
-images/5322cee3.icon_partido.png
-images/5b6a6dc9.icon_partido_active.png
-images/8cc9f62b.icon_dato_active.png
-images/e3bd3404.header-background.jpg
-images/f943d990.icon_trivia.png
-styles/images/ajax-loader.gif
-styles/images/icons-18-black.png
-styles/images/icons-18-white.png
+http://localhost:3501/images/028fcdff.icon_dato.png
+http://localhost:3501/images/1162569c.icon_trivia_active.png
+http://localhost:3501/images/24d2e547.menu-background.jpg
+http://localhost:3501/images/5322cee3.icon_partido.png
+http://localhost:3501/images/5b6a6dc9.icon_partido_active.png
+http://localhost:3501/images/8cc9f62b.icon_dato_active.png
+http://localhost:3501/images/e3bd3404.header-background.jpg
+http://localhost:3501/images/f943d990.icon_trivia.png
+http://localhost:3501/styles/images/ajax-loader.gif
+http://localhost:3501/styles/images/icons-18-black.png
+http://localhost:3501/styles/images/icons-18-white.png
 http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png
 http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif
 http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png
